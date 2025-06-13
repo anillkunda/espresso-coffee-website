@@ -1,0 +1,19 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.2rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
