@@ -1,0 +1,106 @@
+.section-book-table {
+  background-image: url(/assets/global/book-table-bg.jpg);
+  background-position: 50%;
+  background-size: cover;
+
+  margin-bottom: 7rem;
+  padding: 7rem 0;
+}
+
+.book-table {
+  max-width: 150rem;
+}
+
+.bt-form {
+  background-color: var(--white);
+
+  width: 100%;
+  max-width: 45rem;
+  margin-bottom: 0;
+  margin-left: auto;
+  padding: 4rem;
+
+  border-radius: 1.5rem;
+}
+
+.bt-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 170%;
+  text-align: center;
+  color: var(--very-dark-gray);
+
+  margin-top: 0;
+  margin-bottom: 4rem;
+}
+
+.bt-label {
+  display: block;
+  font-size: 1.7rem;
+  font-weight: 500;
+  font-family: Sora, sans-serif;
+
+  margin-bottom: 1rem;
+}
+
+.input {
+  width: 100%;
+
+  font-size: 1.8rem;
+  font-family: Sora, sans-serif;
+  color: var(--very-dark-gray);
+
+  border: none;
+  border-radius: 9px;
+  background-color: var(--light-beige);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+
+  margin-bottom: 2rem;
+  padding: 1.2rem;
+}
+
+.input::placeholder {
+  color: #aaa;
+}
+
+.book-table *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 126, 34, 0.2);
+}
+
+.bt-two-field {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+
+  margin-bottom: 3rem;
+}
+
+.btn-bt-wrap {
+  text-align: center;
+}
+
+.btn-bt:link,
+.btn-bt:visited {
+  display: inline-block;
+
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 1.6rem 3rem;
+  border-radius: 3rem;
+
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.btn-book-table:link,
+.btn-book-table:visited {
+  color: var(--white);
+  background-color: var(--orange);
+}
+
+.btn-book-table:hover,
+.btn-book-table:active {
+  background-color: var(--dark-orange);
+}
