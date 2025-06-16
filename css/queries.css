@@ -168,3 +168,72 @@
     padding: 5rem 0 0 0;
   }
 }
+
+/* --- Below 544px (Phones) */
+
+@media (max-width: 34em) {
+  .grid {
+    row-gap: 4.8rem;
+  }
+
+  .grid--2-cols,
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 2rem 2.6rem;
+  }
+
+  .section-hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+
+  .hero {
+    padding: 0 3.2rem;
+  }
+
+  .hero-img {
+    width: 80%;
+  }
+
+  .logos img {
+    height: 1.2rem;
+  }
+
+  .about-container {
+    grid-template-columns: 1fr;
+    padding: 0 3.2rem;
+    gap: 6.4rem;
+  }
+
+  .about-img-wrap:last-child {
+    grid-row: 3;
+  }
+
+  .feature-icon {
+    width: 100%;
+    max-width: 6rem;
+    max-height: 6rem;
+  }
+
+  .feature-title {
+    margin-bottom: 0.4rem;
+  }
+
+  .feature-title {
+    font-size: 1.6rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .single-text {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+}
