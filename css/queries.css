@@ -11,12 +11,10 @@
     font-size: 4.4rem;
   }
 
-  .book-table {
-    max-width: 130rem;
-  }
-
-  .section-about {
-    padding: 5rem 0.5rem;
+  .section-about,
+  .section-menu,
+  .section-testimonials {
+    padding: 12rem 0.5rem;
   }
 }
 
@@ -39,14 +37,6 @@
   .hero {
     gap: 4.8rem;
   }
-
-  .section-about {
-    padding: 5rem 0.5rem;
-  }
-
-  .section-book-table {
-    padding: 7rem;
-  }
 }
 
 /* --- Below 944px (Tablets) */
@@ -55,6 +45,17 @@
   html {
     /* 8px / 16px = 0.5 = 50% */
     font-size: 50%;
+  }
+
+  .section-products,
+  .section-about,
+  .section-menu,
+  .section-testimonials {
+    padding: 9rem 0.5rem;
+  }
+
+  .section-feature {
+    padding: 9rem 0 0 0;
   }
 
   .hero {
@@ -80,14 +81,6 @@
   .products-list {
     grid-template-columns: 1fr 1fr;
     row-gap: 4rem;
-  }
-
-  .section-about {
-    padding: 3rem 0.5rem;
-  }
-
-  .section-book-table {
-    padding: 7rem;
   }
 
   .testimonials {
