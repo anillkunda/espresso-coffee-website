@@ -1,18 +1,6 @@
 .section-about {
   background-color: var(--light-beige);
   padding: 7rem;
-
-  /* border-bottom-left-radius: 12rem; */
-}
-
-.about {
-  max-width: 145rem;
-  margin: 0 auto;
-  padding: 0 3.2rem;
-}
-
-.about-heading {
-  margin-bottom: 7rem;
 }
 
 .about-heading span {
@@ -30,13 +18,6 @@
   gap: 9.4rem;
 }
 
-.heading-tertiary {
-  font-size: 3.8rem;
-  font-weight: 500;
-  line-height: 1.2;
-  margin-bottom: 3.2rem;
-}
-
 .about-description {
   font-size: 2rem;
   line-height: 1.5;
@@ -49,38 +30,6 @@
   display: flex;
   align-items: center;
   gap: 2rem;
-}
-
-.btn:link,
-.btn:visited {
-  display: inline-block;
-
-  font-size: 2rem;
-  font-weight: 500;
-  padding: 1.6rem 3.2rem;
-  border-radius: 3rem;
-
-  text-decoration: none;
-  transition: all 0.3s;
-}
-
-.btn--full:link,
-.btn--full:visited {
-  color: var(--white);
-  background-color: var(--orange);
-
-  margin-right: 1.6rem;
-}
-
-.btn--full:hover,
-.btn--full:active {
-  background-color: var(--dark-orange);
-}
-
-.btn--outline:link,
-.btn--outline:visited {
-  color: var(--dark-grey);
-  background-color: var(--white);
 }
 
 .about-img {

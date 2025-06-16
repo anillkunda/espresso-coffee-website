@@ -1,6 +1,5 @@
 .gallery {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
   gap: 0.2rem;
 }
 
@@ -9,11 +8,15 @@
 }
 
 .gallery-item img {
-  display: block;
   width: 100%;
+  display: block;
   transition: all 0.4s;
 }
 
-.gallery-item img:hover {
+.gallery-item img:last-child {
   transform: scale(1.1);
+}
+
+.gallery-item img:hover {
+  transform: scale(1.2);
 }

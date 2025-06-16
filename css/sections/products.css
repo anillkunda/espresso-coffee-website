@@ -2,22 +2,6 @@
   padding: 12rem 0;
 }
 
-.product-text-wrap {
-  max-width: 145rem;
-  margin: 0 auto;
-  padding: 0 3.2rem;
-
-  margin-bottom: 5rem;
-}
-
-.heading-secondary {
-  font-size: 4.4rem;
-  font-weight: 500;
-  line-height: 1.3;
-  font-family: var(--sora);
-  color: var(--very-dark-gray);
-}
-
 .heading-secondary span {
   color: var(--orange);
 }
@@ -29,7 +13,6 @@
 
   display: grid;
   column-gap: 2.2rem;
-  grid-template-columns: repeat(4, 1fr);
 }
 
 .product-image-wrap {

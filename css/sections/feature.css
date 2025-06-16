@@ -2,13 +2,6 @@
   padding: 12rem 0;
 }
 
-.feature {
-  width: 100%;
-  max-width: 145rem;
-  margin: 0 auto;
-  padding: 0 0 0 3.2rem;
-}
-
 .feature-wrap {
   display: flex;
   align-items: center;
@@ -16,9 +9,9 @@
 }
 
 .feature-block {
+  display: flex;
   grid-column-gap: 2rem;
   align-items: center;
-  display: flex;
 }
 
 .feature-icon {
@@ -32,16 +25,15 @@
 }
 
 .feature-title {
-  color: var(--title);
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-family: Sora, sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 150%;
+  color: var(--title);
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 .single-text {
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 2rem;
 }

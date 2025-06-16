@@ -8,7 +8,7 @@
 }
 
 .book-table {
-  max-width: 150rem;
+  max-width: 145rem;
 }
 
 .bt-form {
@@ -38,16 +38,13 @@
   display: block;
   font-size: 1.7rem;
   font-weight: 500;
-  font-family: Sora, sans-serif;
 
   margin-bottom: 1rem;
 }
 
 .input {
   width: 100%;
-
   font-size: 1.8rem;
-  font-family: Sora, sans-serif;
   color: var(--very-dark-gray);
 
   border: none;
@@ -79,28 +76,4 @@
 
 .btn-bt-wrap {
   text-align: center;
-}
-
-.btn-bt:link,
-.btn-bt:visited {
-  display: inline-block;
-
-  font-size: 1.8rem;
-  font-weight: 400;
-  padding: 1.6rem 3rem;
-  border-radius: 3rem;
-
-  text-decoration: none;
-  transition: all 0.3s;
-}
-
-.btn-book-table:link,
-.btn-book-table:visited {
-  color: var(--white);
-  background-color: var(--orange);
-}
-
-.btn-book-table:hover,
-.btn-book-table:active {
-  background-color: var(--dark-orange);
 }
