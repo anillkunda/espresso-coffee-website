@@ -1,0 +1,66 @@
+.section-hero {
+  background-color: var(--light-beige);
+  padding: 4rem 0 9rem 0;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  align-items: center;
+  gap: 9.4rem;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.5;
+  color: var(--darker-gray);
+
+  margin-bottom: 5.2rem;
+}
+
+.hero-btn-wrap {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.review-wrap {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 8rem;
+}
+
+.review-customers {
+  display: flex;
+}
+
+.review-customers img {
+  width: 6.2rem;
+  height: 6.2rem;
+  border-radius: 50%;
+  border: 3px solid var(--light-beige);
+
+  margin-right: -1.6rem;
+}
+
+.review-customers img:last-child {
+  margin: 0;
+}
+
+.review-facts-text {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.review-facts-text span {
+  color: var(--dark-orange);
+  font-weight: 700;
+
+  margin-right: 0.4rem;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 0.7rem;
+}
