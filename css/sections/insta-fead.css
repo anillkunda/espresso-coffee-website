@@ -1,0 +1,22 @@
+.gallery {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  display: block;
+  transition: all 0.4s;
+}
+
+.gallery-item img:last-child {
+  transform: scale(1.1);
+}
+
+.gallery-item img:hover {
+  transform: scale(1.2);
+}
